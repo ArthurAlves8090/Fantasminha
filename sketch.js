@@ -29,7 +29,7 @@ function preload(){
 }
 
 function setup(){
-  createCanvas(window.width,window.height);
+  createCanvas(windowWidth,windowHeight);
   bordadepizza=createEdgeSprites();
   
   fundin = createSprite(300,2,20,20);
